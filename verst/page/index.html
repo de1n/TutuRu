@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Верстка страницы</title>
+		<link rel='stylesheet' href='style.css'>
+	</head>
+	<body>
+		<div class="layout">
+			<div class="left">
+				<p class="left--default__content">&#9728;TutuRu - крупнейший сервис поиска, бронировакния и покупки авиабилетов и ж/д билетов.</p></td>
+				<p class="left--default__content">Наша цель проста - делать наших клиентов счастливыми, а их путешествия незабываемыми.<br>
+					Любое путешествие начинается с поиска подходящих билетов и бронирования гостиниц.<br>
+					А мы делаем это качественно обеспечивая самую лучшую поддержку благодаря собственному контакт-центру.</p>
+			</div>
+			<div class="right">
+				<div class="menu">
+				    <div class="menu__item"><a href="" class="menu__link">Личный кабинет</a></div>
+					<div class="menu__item"><a href="" class="menu__link green">Раздел 1</a></div>
+					<div class="menu__item"><a href="" class="menu__link blue">Раздел 2</a></div>
+					<div class="menu__item"><a href="" class="menu__link orange">Раздел 3</a></div>    
+					<div class="menu__item"><a href="" class="menu__link black">Раздел 4</a></div>   
+					<div class="menu__item"><a href="" class="menu__link red">Раздел 5</a></div>
+				</div>
+
+				<div class="form-header">
+					<span class="form-header__text">Заполните форму</span>
+					<span class="form-header__progress">
+						<span class="form-header__progress--default__element form-header__progress--default__element--left done">1</span>
+						<span class="form-header__progress--default__element done">2</span>
+						<span class="form-header__progress--default__element current">3</span>
+						<span class="form-header__progress--default__element">4</span>
+						<span class="form-header__progress--default__element form-header__progress--default__element--right">5</span>
+					</span>
+				</div>
+
+				<div class="info-header">
+					<span>Общая информация</span>
+					<hr class="info-header__through">
+				</div>
+
+				<form action="">
+					<div class="person-info">
+						<span class="person-info__element">
+							<div class="person-info__element--default__label">Фамилия</div>
+							<input type="text" class="person-info__element--default__input">
+						</span>
+						<span class="person-info__element">
+							<div class="person-info__element--default__label">Имя</div>
+							<input type="text" class="person-info__element--default__input">
+						</span>
+						<span class="person-info__element--long">
+							<div class="person-info__element--default__label">Отчество</div>	
+							<input type="text" class="person-info__element--fully__input">					
+						</span>
+					</div>
+					<div class="person-info">
+						<span class="person-info__element">
+							<div class="person-info__element--default__label">Меняли фамилию?</div>
+							
+							<div class="switch">
+								<input type="radio" class="switch-input" name="eng" value="Да" id="eng--yes">
+								<label for="eng--yes" class="switch-label switch-label-on"><span>Да</span></label>
+								<input type="radio" class="switch-input" name="eng" value="Нет" id="eng--no" checked>
+								<label for="eng--no" class="switch-label switch-label-off"><span>Нет</span></label>
+								<span class="switch-selection"></span>
+							</div>
+
+						</span>
+						<span class="person-info__element">
+							<div class="person-info__element--default__label">Пол</div>
+
+							<div class="switch">
+								<input type="radio" class="switch-input" name="sex" value="Муж" id="sex--m" checked>
+								<label for="sex--m" class="switch-label switch-label-on"><span>Муж</span></label>
+								<input type="radio" class="switch-input" name="sex" value="Жен" id="sex--f">
+								<label for="sex--f" class="switch-label switch-label-off"><span>Жен</span></label>
+								<span class="switch-selection"></span>
+							</div>
+
+						</span>
+						<span class="person-info__element--long">
+							<div class="person-info__element--default__label">Семейное положение</div>
+							<select name="martial-status" class="person-info__select--fully">
+								<option value="married">Женат / Замужем</option>
+								<option value="single">Холост</option>
+								<option value="divorced">Разведен</option>
+								<option value="widowed">Вдовец / Вдова</option>
+							</select>
+						</span>
+					</div>
+					<div class="person-info">
+						<span class="person-info__element">
+							<div class="person-info__element--default__label">Гражданство</div>
+							<select name="citizenship" class="person-info__select">
+								<option value="rf">Российская Федерация</option>
+								<option value="other">Другое</option>
+							</select>
+						</span>
+						<span class="person-info__element">
+							<div class="person-info__element--default__label">Дата рождения</div>
+							<select name="day" class="person-info__select--shorty">
+								<option value="01">01</option>
+								<option value="02">02</option>
+								<option value="03">03</option>
+								<option value="04">04</option>
+							</select>
+							<select name="month" class="person-info__select--shorty">
+								<option value="June">Июнь</option>
+								<option value="July">Июль</option>
+								<option value="August">Август</option>
+								<option value="September">Сентябрь</option>
+							</select>
+							<select name="year" class="person-info__select--shorty">
+								<option value="1970">1970</option>
+								<option value="1971">1971</option>
+								<option value="1972">1972</option>
+								<option value="1973">1973</option>s
+							</select>
+						</span>
+					</div>
+					<div class="person-info">
+						<span class="person-info__element--fully">
+							<div class="person-info__element--default__label">Место рождения</div>
+							<input type="text" class="person-info__element--fully__input">
+						</span>
+						<div class="person-info__ref">Например, Россия, Комсомольск-на-Амуре</div>
+					</div>
+					<div class="navigation">
+						<div class="button button__back">&#8592; Назад</div>
+						<input type="submit" class="button button__forward" value="Далее &#8594;" action="">
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

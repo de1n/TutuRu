@@ -1,0 +1,81 @@
+.button {
+	display: block;	
+	background: #34696f;
+	border: 2px solid #c0c0c0;
+
+	 /*Step 3: Text Styles*/
+	color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+
+	/*Step 4: Fancy CSS3 Styles*/
+	background: -webkit-linear-gradient(#eee, #ccc, #eee);
+	background: -moz-linear-gradient(#eee, #ccc, #eee);
+	background: -o-linear-gradient(#eee, #ccc, #eee);
+	background: linear-gradient(#eee, #ccc, #eee);
+
+}
+
+p {
+	margin-top: 20px;
+}
+
+.button--default {
+	height: 20px;
+	width: 60px;
+
+	font: bold 1em/20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	 
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 2px 0 #808080;
+	-moz-box-shadow: 0 2px 0 #808080;
+	box-shadow: 0 2px 0 #808080;
+}
+
+.button--small {
+	height: 12px;
+	width: 30px;
+
+	font: bold 0.5em/10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	 
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 0 #808080;
+	-moz-box-shadow: 0 1px 0 #808080;
+	box-shadow: 0 1px 0 #808080;
+}
+
+.button--big {
+	height: 100px;
+	width: 300px;
+
+	font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	 
+	-webkit-border-radius: 40px;
+	-khtml-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	-webkit-box-shadow: 0 8px 0 #808080;
+	-moz-box-shadow: 0 8px 0 #808080;
+	box-shadow: 0 8px 0 #808080;
+	 
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+ 
+/*Step 3: Link Styling*/
+a.button {
+ 	text-decoration: none;
+}
+
+/*Step 5: Hover Styles*/
+a.button:hover {
+	background: #ccc;
+	background: -webkit-linear-gradient(#fff, #ccc, #fff);
+	background: -moz-linear-gradient(#fff, #ccc, #fff);
+	background: -o-linear-gradient(#fff, #ccc, #fff);
+	background: linear-gradient(#fff, #ccc, #fff);
+}

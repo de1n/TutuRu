@@ -1,0 +1,318 @@
+.layout {
+    position: relative;
+    width: 1024px;
+    height: 100%;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    margin-top: 10%;
+}
+
+.left--default__content {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 20px 0px 40px 0px;
+}
+
+.right {
+    margin-left: 240px;
+}
+
+.menu {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: justify;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin: 25px 0px;
+}
+
+.menu__item{
+    display: inline-block;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.menu__link{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.form-header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-header__text {
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.form-header__progress {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.form-header__progress--default__element {
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #808080;
+    float: left;
+    margin-left: 1px;
+    font-style: italic;
+    box-shadow: 0 1px 1px #606060 inset;
+}
+
+.form-header__progress--default__element--left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form-header__progress--default__element--right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.info-header {
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #808080;
+    margin-top: 30px;
+}
+
+.info-header__through {
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.person-info {
+    position: relative;
+    display: block;
+}
+
+.person-info__element {
+    position: relative;
+    display: inline-block;
+    width: 29%;
+    margin: 0px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.person-info__select {
+    background: transparent;
+    width: 90%;
+}
+
+.person-info__select--shorty {
+    background: transparent;
+    width: 30%;
+}
+
+.person-info__select--fully {
+    background: transparent;
+    width: 100%;
+}
+
+.person-info__element--long {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    margin: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    right: 0px;
+}
+
+.person-info__element--fully {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.person-info__element--default__label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.person-info__element--default__input {
+    width: 90%;
+    border: 1px solid #b0b0b0;
+}
+
+.person-info__element--fully__input {
+    width: 100%;
+    border: 1px solid #b0b0b0;
+}
+
+.person-info__ref {
+    font-size: 12px;
+    color: #c0c0c0;
+}
+
+.done {
+    background: linear-gradient(to top, #00cc00, #009900);
+    color: white;
+}
+
+.current {
+    background: linear-gradient(to top, #adff2f, #6b8e23);
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.black {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.switch {
+    position: relative;
+    margin: 10px 0px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.switch-label {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 58px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+    padding-top: 1px;
+}
+
+.switch-label span {
+    border-bottom: 1px dotted #000;
+}
+
+.switch-label:active {
+    font-weight: bold;
+}
+
+.switch-label-on {
+    padding-left: 2px;
+}
+
+.switch-label-off {
+    padding-right: 2px;
+}
+
+.switch-input {
+    display: none;
+}
+
+.switch-input:checked + .switch-label {
+    text-decoration: none;
+    color: white;
+}
+
+.switch-input:checked + .switch-label span {
+    border: none;
+}
+
+.switch-input:checked + .switch-label-off ~ .switch-selection {
+    left: 60px;
+}
+
+.switch-selection {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 2px;
+    width: 58px;
+    height: 20px;
+    background: #9acd32;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navigation {
+    position: relative;
+    width: 100%;
+    background-color: #eeeeee;
+    margin-top: 30px;    
+}
+
+.button {
+    position: relative;
+    width: 20%;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin: 15px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+    border: none;
+    cursor: pointer;
+}
+
+.button__back {
+    background: linear-gradient(to top, #808080, #c0c0c0);
+}
+
+.button__back:hover {
+    background: linear-gradient(to top, #b0b0b0, #f0f0f0);
+}
+
+.button__forward {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(to top, #5a9d02, #9acd32);
+}
+
+.button__forward:hover {
+    background: linear-gradient(to top, #9add42, #dafd72);
+}

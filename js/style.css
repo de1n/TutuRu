@@ -1,0 +1,54 @@
+.table {
+	width: 60%;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin-top: 5px;
+}
+
+.info {
+	margin: 20px;
+}
+
+.clicked {
+	background-color: #f00;
+}
+
+.tabbed {
+	margin-left: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+.current-page {
+	display: inline-block;
+	width: 20px;
+	border: 1px solid #000;
+	margin: 5px;
+	text-align: center;
+}
+
+.progress {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	height: 16px;
+	width: 16px;
+	background: url('loading.gif') center center;
+	z-index: 2;
+}
+
+.sort-desc::after {
+	content: '▼';
+}
+
+.sort-asc::after {
+	content: '▲';
+}
+
+th, td {
+	text-align: left;
+	border: 1px #000 solid;
+}

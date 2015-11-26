@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Js Test</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div>
+			<button class="js-load-small">Малый объем</button>
+			<button class="js-load-big">Большой объем</button>
+			<input type="text" class="js-input-filter">
+			<button class="js-btn-filter">Фильтровать</button>
+		</div>
+		<table class="table"></table>
+		<div class="hidden js-paging">
+			<button class="js-prev-page">Prev</button>
+			<div class="js-current-page current-page"></div>
+			<button class="js-next-page">Next</button>
+		</div>
+		<div class="progress hidden"></div>
+
+		<div class="js-user-info hidden info">
+			<div>
+				<span>Выбран пользователь </span>
+				<span class="js-current-user"></span>
+			</div>
+			<div>
+				<p>Описание: </p>
+				<p class="js-user-description tabbed"></p>
+			</div>
+			<div>
+				<span>Адрес проживания: </span>
+				<span class="js-user-adress"></span>
+			</div>
+			<div>
+				<span>Город: </span>
+				<span class="js-user-city"></span>
+			</div>
+			<div>
+				<span>Провинция/штат: </span>
+				<span class="js-user-state"></span>
+			</div>
+			<div>
+				<span>Индекс: </span>
+				<span class="js-user-zip"></span>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="table.js"></script>
+	</body>
+</html>
